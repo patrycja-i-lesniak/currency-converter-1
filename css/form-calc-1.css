@@ -1,3 +1,7 @@
+.form {
+  margin-top:100px;
+}
+
 .form__fieldset {
   border: 1px solid #ccc;
   background-color: white;
@@ -5,6 +9,9 @@
   padding: 50px;
   border-radius: 10px;
   margin-top: 50px;
+  max-width: 800px;
+  margin: auto;
+
 }
 
 .form__legend {
@@ -13,18 +20,22 @@
   padding: 10px 50px;
   border-radius: 10px;
   margin: auto;
+
 }
 
 .form__button {
+  display: flex;
   background-color: hsl(347, 77%, 40%);
   color: ivory;
   padding: 10px;
   border: none;
   border-radius: 10px;
   margin: auto;
-  width: 100%;
-  margin-top: 10px;
+  min-width: 250px;
+  margin-top: 50px;
   box-shadow: 5px 5px 4px #ccc;
+  
+  
 }
 
 .form__button:hover {
@@ -39,6 +50,10 @@
   color: hsl(347, 77%, 40%);
   display: inline-block;
   font-weight: bold;
+}
+
+.form__button--text {
+  text-align: center;
 }
 .form__input {
   border: 1px solid #ddd;
@@ -61,9 +76,10 @@
 .form__input:required {
   background-color: hsl(347, 77%, 98%);
 }
-.paragraph__result {
-  font-size: larger;
+
+.paragraph{
   text-align: center;
+  margin-top: 50px;
 }
 
 .paragraph__value {
