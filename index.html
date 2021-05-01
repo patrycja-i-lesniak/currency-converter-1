@@ -13,19 +13,19 @@
     crossorigin="anonymous" />
   <link href="css/style.css" rel="stylesheet">
   <link href="css/form-calc-1.css" rel="stylesheet">
-  <link href="css/form-calc-2.css" rel="stylesheet">
+  <link href="css/element.css" rel="stylesheet">
   <script defer src="js/script.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
 </head>
 
-<body class="body">
+<body class="body element">
   <main>
 
     <!-- currency converter - version 1 - converts PLN into other currencies based on the default exchange rate -->
-
-
+<div class="">
+   
     <div class="container">
       <form class="form js-form">
         <fieldset class="form__fieldset">
@@ -52,19 +52,23 @@
                   <option value="gbp">GBP - Brytyjski funt szterling </option>
                 </select>
             </label>
-          </p>
-        </fieldset>
-        <p>
+          </p> 
+           <p>
           <button class="form__button">Policz kurs:</button>
         </p>
+          <p class="paragraph"> Kwota w wybranej walucie: <span class="paragraph__value js-value">N/A</span></p>
+        </fieldset>
+       
       </form>
-      <p class="paragraph"> Kwota w wybranej walucie: <span class="paragraph__value js-value">N/A</span></p>
+     
     </div>
+  </div>
+  </main>
 
-    <body>
+  <body>
 
-      <foot>
+    <foot>
 
-      </foot>
+    </foot>
 
 </html>
