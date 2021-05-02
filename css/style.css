@@ -10,17 +10,14 @@ html {
   
 
 .body {
-font-family: 'Lato', sans-serif;
-max-width: 1000px;
-margin: auto;
-
-
+  font-family: 'Lato', sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .container {
-display:flex; 
+  display:flex; 
   align-items: baseline;
-  padding; 
   justify-content: center;
 }
 

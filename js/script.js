@@ -18,33 +18,30 @@
     }
   };
 
+  const updateResultText = (input, value, currency) => {
+    const valueElement = document.querySelector(".js-value");
 
+    valueElement.innerHTML = `${input.toFixed(2)} PLN = <strong>${value.toFixed(2)} ${currency}</strong>`;
+  };
 
-    const updateResultText = (input, value, currency) => {
-        const valueElement = document.querySelector(".js-value");
+  const onFormSubmit = (event) => {
+    event.preventDefault();
 
-      valueElement.innerHTML = `${input.toFixed(2)} PLN = <strong>${value.toFixed(2)} ${currency}</strong>`;
-    }
+    const inputValue = document.querySelector(".js-inputValue");
+    const selectedCurrency = document.querySelector(".js-selectedCurrency");
 
+    const input = +inputValue.value;
+    const currency = selectedCurrency.value;
 
-    const onFormSubmit = (event) => {
-      event.preventDefault();
+    const value = calculateResult(input, currency);
 
-      const inputValue = document.querySelector(".js-inputValue");
-      const selectedCurrency = document.querySelector(".js-selectedCurrency");
+    updateResultText(input, value, currency);
+  };
 
-      const input = +inputValue.value;
-      const currency = selectedCurrency.value;
+  const init = () => {
+    const formElement = document.querySelector(".js-form");
 
-      const value = calculateResult(input, currency);
-
-      updateResultText(input, value, currency);
-    };
-
-    const init = () => {
-      const formElement = document.querySelector(".js-form");
-
-      formElement.addEventListener("submit", onFormSubmit);
-    };
-    init();
-  }
+    formElement.addEventListener("submit", onFormSubmit);
+  };
+  init();
+}
