@@ -73,10 +73,6 @@
   margin-top:20px;
 }
 
-.form__input:required {
-  border-color: hsl(347, 77%, 30%)
-}
-
 .paragraph{
   text-align: center;
   margin-top: 50px;
