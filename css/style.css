@@ -18,7 +18,9 @@ margin: auto;
 }
 
 .container {
-margin: auto;
-  
+display:flex; 
+  align-items: baseline;
+  padding; 
+  justify-content: center;
 }
 

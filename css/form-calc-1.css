@@ -1,5 +1,6 @@
 .form {
   margin-top:100px;
+  margin: 20px;;
 }
 
 .form__fieldset {
@@ -11,6 +12,7 @@
   margin-top: 50px;
   max-width: 800px;
   margin: auto;
+  
 
 }
 
@@ -22,21 +24,30 @@
   margin: auto;
 
 }
-
 .form__button {
-  display: flex;
-  background-color: hsl(347, 77%, 40%);
-  color: ivory;
-  padding: 10px;
-  border: none;
+ 
+  background-color: hsl(347, 77%, 40%); 
+  border:none; 
   border-radius: 10px;
-  margin: auto;
+  padding: 10px;
+ color: ivory;
+  box-shadow: 5px 5px 4px #ccc;
+  margin: 0 auto;
   min-width: 250px;
   margin-top: 50px;
-  box-shadow: 5px 5px 4px #ccc;
   
+  
+ 
+  
+  
+  
+ 
   
 }
+
+
+
+
 
 .form__button:hover {
   background-color: hsl(347, 77%, 30%);
@@ -52,9 +63,7 @@
   font-weight: bold;
 }
 
-.form__button--text {
-  text-align: center;
-}
+
 .form__input {
   border: 1px solid #ddd;
   padding: 10px;
@@ -76,6 +85,7 @@
 .paragraph{
   text-align: center;
   margin-top: 50px;
+  font-size:larger
 }
 
 .paragraph__value {
