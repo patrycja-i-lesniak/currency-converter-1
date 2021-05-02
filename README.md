@@ -1,8 +1,12 @@
-# currency-converter-1 
+# CURRENCY CONVERTER - ver.1 
+
 Author: Patrycja Lesniak
+May 2, 2021
+Work in progress.
 
 Simple currency converter - version 1 - converts PLN into other currencies based on the default exchange rate. 
-Work in progress.
+
+
 
 ## Exchange rates as of May 2, 2021
 - CHF = 4.1368;
@@ -25,6 +29,5 @@ Project is created with:
 # Demo
 https://trishya800.github.io/currency-converter-1/
 
-# Currency converter - version 1 - website
-<img src="images/currency-converter-1.gif" alt="Currency Converter - version 1 - how to use">;
+![Currency converter - version 1 - website] (https://ibb.co/XkHR3Gq);
 
