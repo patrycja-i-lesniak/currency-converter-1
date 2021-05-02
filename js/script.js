@@ -2,9 +2,9 @@
 
 {
   const calculateResult = (input, currency) => {
-    const valueCHF = 4.13;
-    const valueEUR = 4.55;
-    const valueGBP = 5.26;
+    const valueCHF = 4.1368;
+    const valueEUR = 4.5427;
+    const valueGBP = 5.2250;
 
     switch (currency) {
       case "CHF":
