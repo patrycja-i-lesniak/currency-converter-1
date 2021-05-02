@@ -1,11 +1,10 @@
 # CURRENCY CONVERTER - ver.1 
 
 Author: Patrycja Lesniak
-May 2, 2021
-Work in progress.
+* May 2, 2021
+* Work in progress.
 
 Simple currency converter - version 1 - converts PLN into other currencies based on the default exchange rate. 
-
 
 
 ## Exchange rates as of May 2, 2021
@@ -14,12 +13,12 @@ Simple currency converter - version 1 - converts PLN into other currencies based
 - GBP = 5.2250;
 
 
-#How to use:
+## How to use:
 1. Enter the amount in PLN.
 2. Select a currency.
 3. Click the button and read the value.
 
-# Technologies
+## Technologies
 Project is created with:
 * HTML;
 * CSS;
