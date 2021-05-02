@@ -74,7 +74,7 @@
 }
 
 .form__input:required {
-  background-color: hsl(347, 77%, 98%);
+  border-color: hsl(347, 77%, 30%)
 }
 
 .paragraph{
