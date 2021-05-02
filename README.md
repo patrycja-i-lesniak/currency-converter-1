@@ -15,14 +15,14 @@ GBP = 5.2250;
 2. Select a currency.
 3. Click the button and read the value.
 
-## Technologies
+# Technologies
 Project is created with:
 * HTML;
 * CSS;
-* JavaScript;
-* FlexBox
-
-<iframe src="../moovie/currency-converter-1.mov">
-
-###Demo
+* BEM;
+* ES6+;
+# Demo
 https://trishya800.github.io/currency-converter-1/
+# Currency converter - version 1 - website
+<img src="images/currency-converter-1.gif" alt="Currency Converter - version 1 - how to use">;
+
