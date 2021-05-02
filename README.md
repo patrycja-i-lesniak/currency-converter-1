@@ -29,5 +29,5 @@ Project is created with:
 # Demo
 https://trishya800.github.io/currency-converter-1/
 
-![Currency converter - version 1 - website] (https://ibb.co/XkHR3Gq);
+![Currency converter - version 1 - website] (https://i.ibb.co/Z19DYb0/currency-converter-1.gif);
 
