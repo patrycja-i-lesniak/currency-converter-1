@@ -1,10 +1,10 @@
 # CURRENCY CONVERTER - ver.1 
 
-Author: Patrycja Lesniak
+Author: Patrycja Lesniak :hibiscus:
 * May 2, 2021
 * Work in progress.
 
-Simple currency converter - version 1 - converts PLN into other currencies based on the default exchange rate. 
+Simple currency converter :moneybag: - version 1 - converts PLN into other currencies based on the default exchange rate. 
 
 
 ## Exchange rates as of May 2, 2021
@@ -28,5 +28,5 @@ Project is created with:
 # Demo
 https://trishya800.github.io/currency-converter-1/
 
-![Currency converter - version 1 - website] (https://i.ibb.co/Z19DYb0/currency-converter-1.gif);
+![Currency converter - version 1 - website](https://i.ibb.co/Z19DYb0/currency-converter-1.gif);
 
