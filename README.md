@@ -26,7 +26,7 @@ Project is created with:
 * ES6+;
 
 # Demo
-https://trishya800.github.io/currency-converter-1/
+https://patrycja-i-lesniak.github.io/currency-converter-1/
 
 ![Currency converter - version 1 - website](https://i.ibb.co/Z19DYb0/currency-converter-1.gif);
 
